@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+import la images svg le hoowe sora l vector
+le heye ad ma btkaber 7ajma lal soura  btenrasam telka2eyan
+7asab l device le btsha8lo 3lee
+fa hay soura ma btet paxal lama btkaberha ma byet2asar l 7ajm ta3ela
+fa hay kteer btsahel sho8lna badel ma 2a3mel aktr mn file bel drawble
+
+drawble__>rightclick__>new__>vectorasset__>
+
+vector asset 3ebara 3an wizzerd mn 5elelha bta3mela import la vector mawjoud 3andak
+Asset type:Material icon,Local file(svg,psd)
+material icon:btesta5dem l icons l mawjouden bel android studio
+Local file(svg,psd):btesta5dem svg,psd soura 7amlta mn l internet svg
+website for icons:https://www.flaticon.com/search?word=user
+
+opacity:ta3et sora shafafeye ta3et soura
+endable:iza soura albt language to2blb ma3ak ya3ne soura ken sha5s byetl3 3al yamen badak bas to2lob l langugae yetal3 3al yasar bta3ela enable
+
+-->
+
+<!--hay soura 100dp*100dp-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_username_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<!--houn soura nafsa zeta kabrt 7ajma dalyt metl ma heye ma t8ayar shakla-->
+    <!--houn soura nafsa zeta kabrt 7ajma dalyt metl ma heye ma t8ayar shakla-->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/ic_username_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="68dp"
+        android:src="@drawable/ic_username_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <!--    fee sha8le bel new drawble esma drawble importer heye plugin mn jet brains feek tzeda 3al android studio btsahel 3leek l import lal drawble files 2aw la sowar btraye7 kteer-->
+<!--    keef btsahel:
+bta3mel new drawblle__>batch drawble importer fa byotlob menak soura bt7ota
+source rotation bebyen l 7ajm l asle ta3ela exmple:XXXHDPI
+badel ma rou7 2a3mel 4 5 a7jem la kel density 7ajm la2
+brou7 ba3mela w betrok 7ajma metl ma heye
+w heye XXXHDPI
+w target rosultion be2ole 7a ya3mel mn hay soura kaza 7ajm LDPI,MDPI.HDPI,XHDPI,XXHDPI...etc
+bt7ot ok btl2e telka2eyan 3mele file b2albo hay soura bkel haw l 2a7jemm bkel density w ray7ne eno rou7 2a3m el resize b2ede
+
+-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
